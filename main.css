@@ -5,10 +5,10 @@ Title: Contact
 Use: Contact Business
 Author: Joe Joseph
 School/Term: Southern Illinois University, Fall, 2021
-Developed: Oct 24, 2021  
-Tested: Oct 24, 2021 ; Passed on Firefox and Chrome browsers.
+Developed: Dec 10, 2021  
+Tested: Dec 10, 2021; Passed on Firefox and Chrome browsers.
 ******************************************************************************
---> */
+-->
 /*Margin and Background */
 html {
     background-color: gainsboro;
@@ -41,6 +41,7 @@ header img {
     
 
 }
+
 
 /* Flex */
 aside img {
@@ -122,6 +123,7 @@ main {
 
 article {
     
+    text-align: center;
     flex-basis: 60%;
     margin: 1.5em;
 }
@@ -136,6 +138,35 @@ aside {
 
     
 }
+/*
+#war:hover {
+    background-image: url(bs.gif);
+
+}
+
+*/
+
+/* Image Center */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.title {
+    font-size: 20px;
+
+}
+
+.AAR {
+    text-align: center;
+
+}
+
+
 /* Font size main */
 /*
 main p1{
@@ -150,6 +181,11 @@ header h3 {
 }
 
 h7 {
+    font-weight: bold;
+}
+
+h8 {
+
     font-weight: bold;
 }
 
